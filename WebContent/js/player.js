@@ -15,15 +15,6 @@ function yp(){
 			}
 		return d
 	}
-
-function Sa(g, p, v) {
-    var r = new Date;
-    r.setTime(r.getTime() + 864E5 * v);
-    document.cookie = g + "=" + escape(p) + ";path=/;domain=." + dmc + ";expires=" + r.toGMTString()
-}
-function ma(b, e) {
-    return c.nodeName(b, "table") && c.nodeName(11 !== e.nodeType ? e : e.firstChild, "tr") ? b.getElementsByTagName("tbody")[0] || b.appendChild(b.ownerDocument.createElement("tbody")) : b
-}
 function c() {
     function b(c, h) {
         return e.push(c + " ") > G.cacheLength && delete b[e.shift()], b[c + " "] = h
@@ -31,56 +22,15 @@ function c() {
     var e = [];
     return b
 }
-function V(b, e) {
-    var h, c = {
-            height: b
-        }, q = 0;
-    for (e = e ? 1 : 0; 4 > q; q += 2 - e) h = pa[q], c["margin" + h] = c["padding" + h] = b;
-    return e && (c.opacity = c.width = b), c
-}
-function Ma(b) {
-    var e = La.exec(b.type);
-    return e ? b.type = e[1] : b.removeAttribute("type"), b
-}
-	var Jb = $("#reb"),
-		i1 = W("ke"),
-		r8 = -1 != navigator.userAgent.toLowerCase().search(/(msie\s|trident.*rv:)([\w.]+)/),
+	var r8 = -1 != navigator.userAgent.toLowerCase().search(/(msie\s|trident.*rv:)([\w.]+)/),
 		l86 = $("#bgbox"),
 		l87 = $("#bgtop"),
-		xtm = $("#xm"),
 		ua = c(),
 		Ia = document.getElementById("pre"),
-        ac = $("#see"),
         La = $("#bglist"),
-        bc = W("bg"),
-        wa = "b" + W("bg"),
-        vb = W("bu"),
-        xt = $("#xt"),
-        dma = document.domain,
-        dmb = "http://" + dma + "/ssss",
-        y6 = "null",
-        dmc = dmb.replace(/http:\/\/.*?([^\.]+\.(tv\.cc|me\.im|io\.us|com\.cn|la\.cn|net\.cn|[^\.]+))\/.+/, "$1"),
-        xtx = $("#xtx"),
-        db = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/,
+        bk = $("#background-box"),
         Cb = $("#upi"),
-        I = $("#x"),
-        Va = Cb.parent(),
-        fb = $("#ja"),
-        pa = fb.next(),
-        Ka = $("#bmd");
-		var _czc = _czc || [],
-		lj = null;
-		_czc.push(["_setAccount", "1254066530"]);
-    bc && (I.removeClass("bg101").addClass(wa + " bg"), La.find(".g101").removeClass("on"), La.find("." + bc).addClass("on"), _czc.push(["_trackEvent", "bg1", "bg1"]));
-    !r8 && !yp() && localStorage.getItem("i") && (Va.addClass("on"), I.removeClass("bg101").css("background-image", "url(" + localStorage.getItem("i") + ")"), Ia.src = localStorage.getItem("i"), La.find(".g101").removeClass("on"), _czc.push(["_trackEvent", "bg2", "bg2"]));
-    if (r8 && vb) {
-        var T = unescape(vb);
-        I.removeClass("bg101").css("background-image", "url(" + T + ")");
-        La.find(".g101").removeClass("on");
-        Va.addClass("on");
-        Ia.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale',src=\"" + T + '")';
-        _czc.push(["_trackEvent", "bg3", "bg3"])
-    }
+        I = $("#x")
     l87.on("mousedown", function(c) {
         var g = document.getElementById("bgbox"),
             k = c.clientX - g.offsetLeft - 283,
@@ -109,10 +59,7 @@ function Ma(b) {
         g.addClass("on");
         I.removeClass("bg101 bg102 bg103 bg104 bg105 bg106 bg107 bg108 bg109 bg110 bg111 bg112 bg113 bg114 bg115 bg116 bg117 bg118 bg119").addClass(k);
         I.css("background-image", "aliceblue");
-        "bg101" == k ? Sa("bg", y6, 0) : Sa("bg", c, 30);
         r8 || yp() || localStorage.removeItem("i");
-        Sa("bu", y6, 0);
-        Va.removeClass("on")
     });
 $("#gs,#xbg").on("click", function() {
         "gs" == this.id ? l86.slideDown() : l86.slideUp()
@@ -139,9 +86,7 @@ Cb.change(function(c) {
             ua.innerHTML = this.result;
             Ia.src = this.result;
             I.css("background-image", "url(" + ua.innerHTML + ")");
-            Sa("bg", y6, 0);
             !yp() && localStorage.setItem("i", ua.innerHTML);
-            Va.addClass("on");
             La.find("span").removeClass("on");
             I.removeClass("bg101")
         }

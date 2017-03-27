@@ -9,6 +9,10 @@
 </head>
 
 <body id="x">
+<!-- 透明背景框 -->
+<div id="background-box">
+	
+</div>
 <!-- 换肤 -->
 <div id="fb">
 <div id="bgbox">
@@ -47,8 +51,6 @@
 </div>
 </div>
 	<div title="换肤" id="gs"> </div>
-	
-	
 </body>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/player.js"></script>
