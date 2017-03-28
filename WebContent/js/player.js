@@ -60,7 +60,8 @@ function c() {
         I.removeClass("bg101 bg102 bg103 bg104 bg105 bg106 bg107 bg108 bg109 bg110 bg111 bg112 bg113 bg114 bg115 bg116 bg117 bg118 bg119").addClass(k);
         I.css("background-image", "aliceblue");
         bk.removeClass("bg101 bg102 bg103 bg104 bg105 bg106 bg107 bg108 bg109 bg110 bg111 bg112 bg113 bg114 bg115 bg116 bg117 bg118 bg119").addClass(k);
-        bk.css("background","rgba(255, 135, 255, 0.7)");
+        //get imgsrc
+        ge(getImgSrc(c));
         r8 || yp() || localStorage.removeItem("i");
     });
 $("#gs,#xbg").on("click", function() {
@@ -94,5 +95,27 @@ Cb.change(function(c) {
         }
     }
 });
+function ge(s) {
+    $.ajax({
+        url: "http://localhost:8080/PortTv/getColor.jsp?q=" + s,
+        type: "GET",
+        dataType: "script",
+        success: function() {
+            playercolor(imginfo);
+        },
+        error: function() {
+            playercolor(imginfo)
+        }
+    })
+};
+function playercolor(imginfo) {
+	bk.css({
+        background: "rgba(" + imginfo[0].img_color + ",.7)"
+    });
+}
+function getImgSrc(g){
+	var p=$('.'+g);
+	return p.find("img").attr("src");
+}
 
 
