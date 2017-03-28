@@ -5,14 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/playerstyle.css">
+<script type="text/javascript" src="js/offlights.js"></script>
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
 <title>player</title>
 </head>
 
 <body id="x">
 <!-- 透明背景框 -->
 <div id="background-box" class="">
+	<div id="willesPlay">
+		<div id="a1"></div>
+	</div>
 	
 </div>
+
 <!-- 换肤 -->
 <div id="fb">
 <div id="bgbox">
@@ -50,8 +56,10 @@
 </div>
 </div>
 </div>
-	<div title="换肤" id="gs"> </div>
+
+<div title="换肤" id="gs"> </div>
 </body>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/player.js"></script>
+
 </html>
