@@ -59,6 +59,8 @@ function c() {
         g.addClass("on");
         I.removeClass("bg101 bg102 bg103 bg104 bg105 bg106 bg107 bg108 bg109 bg110 bg111 bg112 bg113 bg114 bg115 bg116 bg117 bg118 bg119").addClass(k);
         I.css("background-image", "aliceblue");
+        bk.removeClass("bg101 bg102 bg103 bg104 bg105 bg106 bg107 bg108 bg109 bg110 bg111 bg112 bg113 bg114 bg115 bg116 bg117 bg118 bg119").addClass(k);
+        bk.css("background","rgba(255, 135, 255, 0.7)");
         r8 || yp() || localStorage.removeItem("i");
     });
 $("#gs,#xbg").on("click", function() {

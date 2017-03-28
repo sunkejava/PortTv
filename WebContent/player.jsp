@@ -10,7 +10,7 @@
 
 <body id="x">
 <!-- 透明背景框 -->
-<div id="background-box">
+<div id="background-box" class="">
 	
 </div>
 <!-- 换肤 -->
