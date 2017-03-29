@@ -124,6 +124,7 @@ function playercolor(imginfo) {
 	$("#alertBox").css({
 		background: "rgba(" + imginfo[0].img_color + ",.9)"
 	});
+	$("#a1").css("box-shadow","1px 1px 15px 10px rgba(123," + imginfo[0].img_color + ")")
 }
 function getImgSrc(g){
 	var p=$('.'+g);
@@ -169,7 +170,7 @@ var flashvars={
 		my_pic:'http://img2.c.yinyuetai.com/others/admin/170327/0/e97fad13115c190dd2e63cd82a9e92ce_0x0.jpg'
 		//调用自定义播放器参数结束
 		};
-	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
+	var params={bgcolor:'rgba(93, 139, 151, 0.74902)',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
 	var video=['http://hd.yinyuetai.com/uploads/videos/common/0E050154B736412955C19ADEF4DDD635.flv?sc\u003d2d50738ba1cc4d97\u0026br\u003d1096\u0026vid\u003d2571488\u0026aid\u003d25339\u0026area\u003dKR\u0026vst\u003d0->video/mp4'];
 	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','720','457',false,flashvars,video,params);
 
@@ -215,4 +216,24 @@ var flashvars={
 	$("#closeBox").on("click", function() {
 		$("#alertBox").slideToggle();
     });
-	
+	$("#btop").on("mousedown", function(c) {
+        var g = document.getElementById("alertBox"),
+            k = c.clientX - g.offsetLeft,
+            m = c.clientY - g.offsetTop;
+        	
+        document.onmousemove = function(c) {
+            c = c || window.event;
+            $("#alertBox").css({
+                left: c.clientX - k + "px",
+                top: c.clientY - m + "px"
+            })
+        }
+    });
+    $("#btop").on("mouseup", function(c) {
+    	var g = document.getElementById("alertBox"),
+        k = c.clientX - g.offsetLeft,
+        m = c.clientY - g.offsetTop;
+    document.onmousemove = function(c) {
+
+    }
+    });

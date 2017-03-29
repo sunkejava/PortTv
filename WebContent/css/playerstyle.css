@@ -361,7 +361,7 @@ body {
 #a1{
 	position:absolute;
 	margin: 100px auto;
-	box-shadow: 0px 0px 15px #333333;
+	box-shadow: 1px 1px 15px 10px #333333;
 	z-index: 96;
 	float: left;
 }
@@ -412,7 +412,7 @@ body {
     float: left;
     color: #bb8f8f;
     font-size: 16px;
-    margin-left: 20px;
+    margin: 5px 10px;
 }
 
 #btop {
