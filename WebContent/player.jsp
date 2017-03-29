@@ -18,7 +18,17 @@
 	</div>
 	
 </div>
+<!-- 弹出框 -->
+<div id="alertBox">
+<div id="btop">
+	<span id="message-title"></span>
+	<span id="closeBox">×</span>
+</div>
+<div>
+	<h3 id="messagea"></h3>
+</div>
 
+</div>
 <!-- 换肤 -->
 <div id="fb">
 <div id="bgbox">

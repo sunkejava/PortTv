@@ -373,3 +373,50 @@ body {
     width:720px;
     height:457px;
 }
+#alertBox {
+    opacity: .95;
+    box-shadow: 0 0 7px #353535;
+    display: none;
+    filt0er: alpha(opacity=90);
+    height: 180px;
+    z-index: 100000;
+    font-family: Helvetica,Tahoma Microsoft YaHei,arial,sans-serif;
+    border-radius: 2px;
+    border: solid 1px #666;
+    width: 270px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #252525;
+}
+#closeBox{
+	float: right;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 5px 10px 0 0;
+    font-family: tahoma;
+}
+#alertBox h3{
+	display: inline-block;
+    padding-top: 2px;
+    line-height: 50px;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+}
+#message-title{
+	display: inline-block;
+    padding-top: 2px;
+    line-height: 35px;
+    float: left;
+    color: #bb8f8f;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#btop {
+    height: 50px;
+    border-bottom: #666 solid 1px;
+    cursor: move;
+}
