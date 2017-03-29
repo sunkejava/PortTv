@@ -72,7 +72,7 @@ Cb.change(function(c) {
     c = document.getElementById("upi");
     var g = c.value.substring(c.value.lastIndexOf(".") + 1).toLowerCase();
     if ("png" != g && "jpg" != g && "jpeg" != g && "gif" != g && "bmp" != g && "ico" != g) 
-    	t = "只能上传图片[.png.jpg.jpeg.gif.bmp.ico格式]", '';
+    	alert("只能上传图片[.png.jpg.jpeg.gif.bmp.ico格式]");
     else if (r8) c.select(), 
     c = document.selection.createRange().text, r10 ? 
     	(Ia.src = c, res.innerHTML = c, I.css("background-image", "url(" + ua.innerHTML + ")"), 
