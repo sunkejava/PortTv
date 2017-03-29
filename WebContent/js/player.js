@@ -72,7 +72,7 @@ Cb.change(function(c) {
     c = document.getElementById("upi");
     var g = c.value.substring(c.value.lastIndexOf(".") + 1).toLowerCase();
     if ("png" != g && "jpg" != g && "jpeg" != g && "gif" != g && "bmp" != g && "ico" != g) 
-    	alertBox("只能上传图片[.png.jpg.jpeg.gif.bmp.ico格式]");
+    	alertBox("温馨提示：","只能上传图片[.png.jpg.jpeg.gif.bmp.ico格式]");
     else if (r8) c.select(), 
     c = document.selection.createRange().text, r10 ? 
     	(Ia.src = c, res.innerHTML = c, I.css("background-image", "url(" + ua.innerHTML + ")"), 
@@ -115,12 +115,15 @@ function ge(s) {
 };
 function playercolor(imginfo) {
 	bk.css({
-        background: "rgba(" + imginfo[0].img_color + ",.7)"
+        background: "rgba(" + imginfo[0].img_color + ",.75)"
     });
 	l86.css({
-        background: "rgba(" + imginfo[0].img_color + ",.7)"
+        background: "rgba(" + imginfo[0].img_color + ",.9)"
     });
-	params.bgcolor="rgba(" + imginfo[0].img_color + ",.7)";
+	params.bgcolor="rgba(" + imginfo[0].img_color + ",.85)";
+	$("#alertBox").css({
+		background: "rgba(" + imginfo[0].img_color + ",.9)"
+	});
 }
 function getImgSrc(g){
 	var p=$('.'+g);
@@ -188,12 +191,28 @@ var flashvars={
 	}
 	function alertBox(chara,charb){
 		var abox=$("#alertBox");
+		//获取页面的高度和宽度
+		var sWidth=document.body.scrollWidth;
+		var sHeight=document.body.scrollHeight;
+		
+		//获取页面的可视区域高度和宽度
+		var wHeight=document.documentElement.clientHeight;
+		
+		//插入需要的内容
+		
+		//获取弹出框的宽和高
+		var dHeight=abox.offsetHeight;
+		var dWidth=abox.offsetWidth;
+			//设置弹出框的left和top
+		abox.css("left",sWidth/2-dWidth/2+"px");
+		abox.css("top",wHeight/2-dHeight/2+"px");
+		
 		$("#message-title").html(chara);
 		$("#messagea").html(charb);
-		abox.slideDown();
+		abox.slideToggle();
 	}
 	
 	$("#closeBox").on("click", function() {
-		$("#alertBox").slideUp();
+		$("#alertBox").slideToggle();
     });
 	
