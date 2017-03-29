@@ -5,83 +5,52 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>高清视频在线免费观看</title>
-<link rel="stylesheet" type="text/css" href="css/default.css">
-	<!--必要样式-->
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script>
-		function show(){
-         var random_bg=parseInt(Math.random()*25);
-         var bg='url(img/bg-'+random_bg+'.jpg)';
-         $("body").css("background-image",bg,"width:","100%");
-		 }
-	</script>
 </head>
-<body onload = "show()">
-<div class = "tbox">
-	<div class='login'>
-		<div align="center">
-			<img src="img/iqiyi.png" />
-		</div>
-	  <div class='login_title'>
-	  </div>
-	  <div class='login_fields'>
-	    <div class='login_fields__user'>
-	      <div class='icon'>
-	        <img src='img/user_icon_copy.png'>
-	      </div>
-	      <input placeholder='视频地址...' id="valueurl" name="valueurl" value="" type='text'>
-	        <div class='validation'>
-	          <img src='img/tick.png'>
-	        </div>
-	      </input>
-	    </div>
-	    <div class='login_fields__submit'>
-	      <input type='button' name="submitbf" value='播放'>
-	      <div class='forgot'>
-	        <a href='http://www.sunkejava.com' id="auth">sunkejava</a>
-	      </div>
-	    </div>
-	  </div>
-	  <div class='success'>
-		<iframe style="width:640px; height:504px;" name="iframe0" id="vipurl" src="" frameborder="0" data-id="" seamless></iframe>
-	  </div>
-	  <div class='disclaimer'>
-	    <p>视频在线解析<br></p>
-		<p>目前支持：爱奇艺、优酷、乐视视频等官网的VIP视频！</p>
-	  </div>
+<body id="x">
+	<!-- 透明背景框 -->
+<div id="background-box" class="">
+	<div id="willesPlay">
 	</div>
-	<div class='authent'>
-	  <img src='img/puff.svg'>
-	  <p>认证中...</p>
-	</div>
-	</div>
-	<script type="text/javascript" src='js/stopExecutionOnTimeout.js?t=1'></script>
-	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-	<script>
-	$('input[type="button"]')['click'](function () {$('.login')['css']('padding','100px 700px 150px 40px');
-	$('.success')['css']('margin-left','-170px');
-	setTimeout(function () {$('.authent')['show']()['animate']({ right: -320 }, 
-	{easing: 'easeOutQuint',duration: 600,queue: false	    });	
-	$('.authent')['animate']({ opacity: 1 }, {duration: 200,queue: false})['addClass']('visible');}, 500);
-	setTimeout(function () {$('.authent')['show']()['animate']({ right: 90 }, {easing: 'easeOutQuint',duration: 600,
-	queue: false	 });$('.authent')['animate']({ opacity: 0 }, {duration: 200,queue: false})['addClass']('visible');
-	$('.login')['removeClass']('testtwo');	    }, 2500);setTimeout(function () {
-	$('.success')['fadeIn']();}, 3200);var bfqAtkgI1 = window['document']['getElementById']('valueurl')['value'];
-	window['document']['getElementById']('vipurl')['src'] = 'https://v.cao.me/?url=' + bfqAtkgI1;});	
-	$('input[type="text"],input[type="password"]')['focus'](function () {	    
-	$(this)['prev']()['animate']({ 'opacity': '1' }, 200);	});	
-	$('input[type="text"],input[type="password"]')['blur'](function () {	    
-	$(this)['prev']()['animate']({ 'opacity': '.5' }, 200);	});	
-	$('input[type="text"],input[type="password"]')['keyup'](function () {	    
-	if (!$(this)['val']() == '') {	        
-	$(this)['next']()['animate']({	            'opacity': '1',	            'right': '30'	        }, 200);} 
-	else {	        
-	$(this)['next']()['animate']({	            'opacity': '0',	            'right': '20'	        }, 200);	    }	});	
-	var PYDt2 = 0;	
-	$('.tab')['click'](function () {	    
-	$(this)['fadeOut'](200, function () {	        
-	$(this)['parent']()['animate']({ 'left': '0' });	    });	});
-	</script>
+</div>
+	<!-- 换肤 -->
+<div id="fb">
+<div id="bgbox">
+<div id="bgtop">
+<h3>Decline影视,轻松换肤---------By sunkejava</h3>
+<span id="xbg">×</span>
+</div>
+<div id="bglist" class="bglist">
+<span class="g101 on"><p>Don't use bg skin</p><i></i><img src="http://ww4.sinaimg.cn/large/b330dc26gw1egqmklb0h9j203s02kwe9.jpg" /></span>
+<span class="g102"><p>bkg01</p><i></i><img src="http://ww1.sinaimg.cn/large/a24d4f55jw1fb9w739japj21hc0u0tox.jpg" /></span>
+<span class="g103"><p>bkg02</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w754yq0j21hc0u0qib.jpg" /></span>
+<span class="g104"><p>bkg03</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w72nsxaj21hc0u0qfa.jpg" /></span>
+<span class="g105"><p>bkg04</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w72234cj21hc0u0nda.jpg" /></span>
+<span class="g106"><p>bkg05</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w71db1bj21hc0u0qnl.jpg" /></span>
+<span class="g107"><p>bkg06</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w70l95kj21hc0u0kcx.jpg" /></span>
+<span class="g108"><p>bkg07</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w6zxj5zj21hc0u0k99.jpg" /></span>
+<span class="g109"><p>bkg08</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w6z6ui3j21hc0u04co.jpg" /></span>
+<span class="g110"><p>bkg09</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w6yrq99j21hc0u0n47.jpg" /></span>
+<span class="g111"><p>bkg10</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w6xx5u1j21hc0u0tiy.jpg" /></span>
+<span class="g112"><p>bkg11</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w6w2oa9j21hc0u0wu4.jpg" /></span>
+<span class="g113"><p>bkg12</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w6u4rz2j21hc0u07c5.jpg" /></span>
+<span class="g114"><p>bkg13</p><i></i><img src="http://ww4.sinaimg.cn/large/a24d4f55jw1fb9w6tkp28j21hc0u0k74.jpg" /></span>
+<span class="g115"><p>bkg14</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w6sxxz1j21hc0u0h7u.jpg" /></span>
+<span class="g116"><p>bkg15</p><i></i><img src="http://ww3.sinaimg.cn/large/a24d4f55jw1fb9w6bpfooj21hc0u0qly.jpg" /></span>
+<span class="g117"><p>bkg16</p><i></i><img src="http://ww4.sinaimg.cn/large/a24d4f55jw1fb9w6eu0x0j21hc0u0zw9.jpg" /></span>
+<span class="g118"><p>bkg17</p><i></i><img src="http://ww2.sinaimg.cn/large/a24d4f55jw1fb9w6dyynaj21hc0u0jyp.jpg" /></span>
+<span class="g119"><p>bkg18</p><i></i><img src="http://ww4.sinaimg.cn/large/a24d4f55jw1fb9w69ydgoj21hc0u046c.jpg" /></span>
+<div id="upb"><i></i>
+<input id="upi" type="file" name="upi">
+<div class="dup">点击上传<br>或<br>直接拖曳图片进来</div>
+<div class="cup">双击上传</div>
+<img id="pre" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" name="pre">
+<textarea id="tex" value=""></textarea>
+</div>
+</div>
+</div>
+</div>
+
+<div title="换肤" id="gs"> </div>
+
 </body>
 </html>
