@@ -14,38 +14,42 @@
 <body id="x">
 	<!-- 透明背景框 -->
 	<div id="background-box" class="">
-		<div id="tv-List">
-			<ul class="video-user-list">
-				<li class="video-user-item"><a class="video-user-box" href=""
-					target="_blank">
-						<div class="video-user-pic">
-							<div class="video-pic">
-								<div class="video-pic-inner">
-									<div class="pic-default1">
-										<img
-											src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg"
-											alt="" />
-									</div>
-								</div>
-								<div class="op-time">00:04:32</div>
-								<div class="mask"></div>
-								<i class="icon-play"></i>
-							</div>
-						</div>
-						<div class="video-user-info">
-							<p class="user-i-title">【逝去的爱】</p>
-							<p class="user-video-op">
-								<span class="op-like"><i class="icon-user-like"></i>48865</span>
-								<span class="aud-count"><i class="icon-eye"></i>59624</span>
-							</p>
-						</div>
-				</a></li>
-			</ul>
-		</div>
+		
 		<div id="willesPlay">
 			<div id="a1"></div>
 		</div>
-
+		<div class="TypeList">
+				<ul>
+					<li>
+						<div class = "image-box">
+							<a target="_blank" class="TypeBigPics" href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+								<div class = "image-pic">
+									<div class = "pps-b">
+										<div class = "pps">
+											<img class = "img" width="160" height="90" src="img/a1.jpg">
+										</div>
+										<div class="maskb"></div>
+										<i class="icon-view">&#xe6a8;</i>
+										<span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+									</div>
+								</div>	
+							</a>
+							<div class="TypePicInfos">
+								<div class="TypePicTags">&#xe637;<a title="美女" href="/tags/meinv.htm">美女</a><a title="写真" href="/tags/xiezhen.htm">写真</a><a title="丝袜" href="/tags/siwa.htm">丝袜</a>
+								</div>
+								<div class="txtInfo gray">
+									<i class="iconList">&#xe610;</i>
+									<em class="IcoList">
+										<a href="http://www.umei.cc/meinvtupian/siwameinv/">丝袜美女</a>
+									</em>
+									<i class="iconTime">&#xe62c;</i>
+									<em class="IcoTime">09-23</em>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+		</div>
 	</div>
 	<!-- 弹出框 -->
 	<div id="alertBox">
