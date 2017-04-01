@@ -128,7 +128,7 @@ function playercolor(imginfo) {
 		background: "rgba(210," + imginfo[0].img_color + ")"
 	});
 	$(".text").css({
-		color: "rgba(50,"+imginfo[0].img_color + ")"
+		color: "rgba(110,"+imginfo[0].img_color + ")"
 	});
 	$("#a1").css("box-shadow","1px 1px 15px 10px rgba(123," + imginfo[0].img_color + ")");
 }

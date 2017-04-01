@@ -49,17 +49,17 @@ a{
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 }
+.TypeList {
+	width:50%;
+	height:100%;
+}
 .TypeList li {
 	display: inline-block;
     letter-spacing: normal;
     border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-}
-img {
-    border: 0 none;
-}
-body div {
+	width: 235px;
 }
 em, i {
     font-style: normal;
