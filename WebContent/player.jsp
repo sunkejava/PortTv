@@ -24,18 +24,16 @@
 						<div class = "image-box">
 							<a target="_blank" class="TypeBigPics" href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
 								<div class = "image-pic">
-									<div class = "pps-b">
 										<div class = "pps">
-											<img class = "img" width="160" height="90" src="img/a1.jpg">
+											<img class = "img" width="215" height="125" src="img/a1.jpg">
 										</div>
 										<div class="maskb"></div>
 										<i class="icon-view">&#xe6a8;</i>
-									</div>
 								</div>	
 							</a>
 							<div class="TypePicInfos">
-								<div class="txtInfo gray">
-									
+								<div class="textBox">
+									<span class="text">三国演义</span>
 								</div>
 							</div>
 						</div>

@@ -23,10 +23,12 @@ body {
     margin: 0;
 }
 .image-box {
-	width: 100%;
     display: block;
     background-color: #e4e7c8;
 	overflow: hidden;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 	padding:10px;
 }
 a{
@@ -46,21 +48,13 @@ a{
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	margin:10px;
-}
-.TypeList {
-    overflow: hidden;	
-	background: #e4e7c8;
-	text-align:center;
-	margin-top:0px;
-	float:left;
 }
 .TypeList li {
 	display: inline-block;
     letter-spacing: normal;
-    *display: inline;
-    *zoom: 1;
-    width: 235px;
+    border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
 }
 img {
     border: 0 none;
@@ -99,26 +93,34 @@ em, i {
     padding: 5px 3% 0;
     width: 94%;
 }
-.TypePicTags a {
-    display: block;
-    float: right;
-	color: #333;
-    font-size: 12px;
-    height: 20px;
-	padding-left: 10px;
-    padding-right: 10px;
-    white-space: nowrap;
-	text-decoration: none;
+.textBox{
+	width:100%;
+	height:20px;
+	text-align: center;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background:#ff6699;
+	cursor: pointer;
 }
-.TypePicTags a:hover{
-	color:#6666CC;
-	text-decoration: none;
+.textBox:hover{
+	width:100%;
+	height:20px;
+	text-align: center;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background:#ffff00;
+	cursor: pointer;
 }
-.TypeBigPics {
-    display: block;
-    overflow: hidden;
-    position: relative;
-    width: 255px;
+.text{
+	line-height:20px;
+	margin:0px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	text-align:center;
+	
 }
 .icon-view {
 	font-family: iconfont;
@@ -128,7 +130,7 @@ em, i {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -25px 0 0 -25px;
+    margin: -18px 0 0 -25px;
     background-position: 0 0;
     opacity: 0;
     -webkit-transition: opacity .2s linear;
@@ -137,22 +139,7 @@ em, i {
     -o-transition: opacity .2s linear;
     transition: opacity .2s linear;
 }
-.pps{
-	height: 100%;
-    background-color: rgba(255,255,255,0.4);
-    -webkit-transition: transform .15s ease-in-out 0s;
-    -moz-transition: transform .15s ease-in-out 0s;
-    -ms-transition: transform .15s ease-in-out 0s;
-    -o-transition: transform .15s ease-in-out 0s;
-    transition: transform .15s ease-in-out 0s;
-	text-align: center;
-}
-.pps-b{
-	display: table;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-}
+
 .maskb {
     background-color: rgba(153,153,153,0.95) ;
     height: 100%;
@@ -560,7 +547,7 @@ em, i {
 	float: left;
 }
 #willesPlay {
-	z-index:96;
+	z-index:94;
     box-shadow: 0px 0px 15px #333333;
     position: relative;
     margin:auto auto 100px;
