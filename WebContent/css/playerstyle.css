@@ -25,8 +25,7 @@ body {
 .image-box {
 	width: 100%;
     display: block;
-    background-color: #CC3366;
-    position: relative;
+    background-color: #e4e7c8;
 	overflow: hidden;
 	padding:10px;
 }
@@ -36,7 +35,7 @@ a{
 .image-pic{
 	position: relative;
     width: 215px;
-    height: 323px;
+    height: 125px;
     overflow: hidden;
 	text-align: center;
 	border-radius: 25px;
@@ -47,13 +46,13 @@ a{
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
+	margin:10px;
 }
 .TypeList {
-    width: 80%;
     overflow: hidden;	
-	background: #111;
+	background: #e4e7c8;
 	text-align:center;
-	margin-top:-40px;
+	margin-top:0px;
 	float:left;
 }
 .TypeList li {
@@ -61,7 +60,6 @@ a{
     letter-spacing: normal;
     *display: inline;
     *zoom: 1;
-    margin: 0 0px 10px 10px;
     width: 235px;
 }
 img {
@@ -75,7 +73,6 @@ em, i {
 .TypeList ul{
 	display:block;
 	list-style-type:none;
-	margin-top: 40px;
 }
 
 .TypePic {
@@ -102,19 +99,6 @@ em, i {
     padding: 5px 3% 0;
     width: 94%;
 }
-.TypePicTags {
-    /* background: rgba(0, 0, 0, 0) url("../images/ico.png") no-repeat scroll 0 2px; */
-	font-family: iconfont;
-	font-size: 25px;
-	font-style: normal;
-	float:left;
-	color:#fff;
-    height: 20px;
-    line-height: 20px;
-    overflow: hidden;
-    padding-bottom: 5px;
-    padding-left: 25px;
-}
 .TypePicTags a {
     display: block;
     float: right;
@@ -135,21 +119,6 @@ em, i {
     overflow: hidden;
     position: relative;
     width: 255px;
-}
-.TypeBigPics span {
-    background: rgba(0, 0, 0, 0) url("../img/OpacityBlack_bg1.png") no-repeat scroll left top;
-    bottom: -80px;
-    color: #fff;
-    display: block;
-    font-size: 14px;
-    left: 0;
-    line-height: 21px;
-    overflow: hidden;
-    padding: 15px 2% 5px;
-    position: absolute;
-    width: 96%;
-    word-break: break-all;
-    word-wrap: break-word;
 }
 .icon-view {
 	font-family: iconfont;
@@ -597,6 +566,7 @@ em, i {
     margin:auto auto 100px;
     width:720px;
     height:457px;
+    float:right;
 }
 #alertBox {
     opacity: .95;

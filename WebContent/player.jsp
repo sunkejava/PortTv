@@ -30,20 +30,12 @@
 										</div>
 										<div class="maskb"></div>
 										<i class="icon-view">&#xe6a8;</i>
-										<span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
 									</div>
 								</div>	
 							</a>
 							<div class="TypePicInfos">
-								<div class="TypePicTags">&#xe637;<a title="美女" href="/tags/meinv.htm">美女</a><a title="写真" href="/tags/xiezhen.htm">写真</a><a title="丝袜" href="/tags/siwa.htm">丝袜</a>
-								</div>
 								<div class="txtInfo gray">
-									<i class="iconList">&#xe610;</i>
-									<em class="IcoList">
-										<a href="http://www.umei.cc/meinvtupian/siwameinv/">丝袜美女</a>
-									</em>
-									<i class="iconTime">&#xe62c;</i>
-									<em class="IcoTime">09-23</em>
+									
 								</div>
 							</div>
 						</div>
