@@ -247,3 +247,9 @@ var flashvars={
 
     }
     });
+    $("#wzms").on("click",function(){
+    	$("#tv-lists").css({display:"none"});
+    });
+    $("#twms").on("click",function(){
+    	$("#tv-lists").css({display:"block"});
+    });

@@ -30,7 +30,7 @@
 					<a id="view-a">显示方式</a>
 					<div title="图文模式" id="twms">&#xe6c7;</div>
 				</div>
-					<ul>
+					<ul id="tv-lists">
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
