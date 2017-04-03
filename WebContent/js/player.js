@@ -1,3 +1,7 @@
+$(document).ready(function(){
+	var wHeight=document.documentElement.clientHeight;
+	$("#background-box").css({height:wHeight});
+});
 function W(b){
 	var a,d=b+"=",c=document.cookie.split(";");
 	for(b=0;b<c.length;b++){
@@ -130,7 +134,7 @@ function playercolor(imginfo) {
 	$(".text").css({
 		color: "rgba(110,"+imginfo[0].img_color + ")"
 	});
-	$("#a1").css("box-shadow","1px 1px 15px 10px rgba(123," + imginfo[0].img_color + ")");
+	$("#willesPlay").css("box-shadow","1px 1px 15px 10px rgba(123," + imginfo[0].img_color + ")");
 }
 function getImgSrc(g){
 	var p=$('.'+g);
