@@ -178,23 +178,23 @@ var flashvars={
 		};
 	var params={bgcolor:'rgba(93, 139, 151, 0.74902)',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
 	var video=['http://hd.yinyuetai.com/uploads/videos/common/0E050154B736412955C19ADEF4DDD635.flv?sc\u003d2d50738ba1cc4d97\u0026br\u003d1096\u0026vid\u003d2571488\u0026aid\u003d25339\u0026area\u003dKR\u0026vst\u003d0->video/mp4'];
-	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','720','457',false,flashvars,video,params);
+	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
 
 	//开关灯
 	var box = new LightBox();
 	function closelights(){//关灯
 		box.Show();
-		CKobject._K_('a1').style.width='720px';
-		CKobject._K_('a1').style.height='457px';
-		CKobject.getObjectById('ckplayer_a1').width='720';
-		CKobject.getObjectById('ckplayer_a1').height='457';
+		CKobject._K_('a1').style.width='100%';
+		CKobject._K_('a1').style.height='100%';
+		CKobject.getObjectById('ckplayer_a1').width='100%';
+		CKobject.getObjectById('ckplayer_a1').height='100%';
 	}
 	function openlights(){//开灯
 		box.Close();
-		CKobject._K_('a1').style.width='720px';
-		CKobject._K_('a1').style.height='457px';
-		CKobject.getObjectById('ckplayer_a1').width='720';
-		CKobject.getObjectById('ckplayer_a1').height='457';
+		CKobject._K_('a1').style.width='100%';
+		CKobject._K_('a1').style.height='100%';
+		CKobject.getObjectById('ckplayer_a1').width='100%';
+		CKobject.getObjectById('ckplayer_a1').height='100%';
 	}
 	function alertBox(chara,charb){
 		var abox=$("#alertBox");

@@ -9,8 +9,8 @@
 }
 html, body, div, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, ol, ul, li {
  margin: 0;
- padding: 0;
- list-style: none
+ list-style: none;
+ 
  }
 
 body {
@@ -29,15 +29,15 @@ body {
 	border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	padding:10px;
+	padding:5px;
 }
 a{
 	text-decoration: none;
 }
 .image-pic{
 	position: relative;
-    width: 215px;
-    height: 125px;
+    width: 100%;
+    height: 20%;
     overflow: hidden;
 	text-align: center;
 	border-radius: 25px;
@@ -50,16 +50,43 @@ a{
 	-moz-border-radius: 25px;
 }
 .TypeList {
-	width:50%;
+	width:20%;
 	height:100%;
+	float:right;
+	overflow-x: auto;
+	overflow-y: auto;
 }
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 16px;  
+    height: 16px;  
+    background-color: rgba(0,0,0,.3);  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #f09f9f;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #A2214C;  
+}  
 .TypeList li {
 	display: inline-block;
     letter-spacing: normal;
     border-radius: 25px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
-	width: 235px;
+	width: 100%;
+	margin: 5px 0;
 }
 em, i {
     font-style: normal;
@@ -67,25 +94,7 @@ em, i {
 .TypeList ul{
 	display:block;
 	list-style-type:none;
-}
-
-.TypePic {
-    border: 5px solid #fff;
-    border-radius: 5px;
-    float: left;
-    height: 165px;
-    width: 215px;
-}
-.TypePic img {
-    border-radius: 5px;
-}
-.TypeInfo {
-    float: right;
-    height: 175px;
-    width: 930px;
-}
-.TypeInfo p {
-    line-height: 30px;
+	padding: initial;
 }
 
 .TypePicInfos {
@@ -541,19 +550,19 @@ em, i {
 }
 #a1{
 	position:absolute;
-	margin: 100px auto;
 	box-shadow: 1px 1px 15px 10px #333333;
 	z-index: 96;
-	float: left;
+	width:80%;
+	height:100%;
+	float:left;
 }
 #willesPlay {
 	z-index:94;
     box-shadow: 0px 0px 15px #333333;
     position: relative;
     margin:auto auto 100px;
-    width:720px;
-    height:457px;
-    float:right;
+    width:80%;
+    height:500px;
 }
 #alertBox {
     opacity: .95;
