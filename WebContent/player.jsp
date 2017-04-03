@@ -14,7 +14,21 @@
 <body id="x">
 	<!-- 透明背景框 -->
 	<div id="background-box" class="">
-
+		<div id="search-bc">
+			<div align="center">
+				<img src="img/iqiyi.png">
+			</div>
+			<div class="login_fields__user">
+		      <div class="icon" style="opacity: 0.5;">
+		        <img src="img/user_icon_copy.png">
+		      </div>
+		      <input placeholder="视频地址..." id="valueurl" name="valueurl" value="" type="text">
+		        <div class="validation">
+		          <img src="img/tick.png">
+		        </div>
+	      	<input id="submitbf" type="button" name="submitbf" value="播放">
+	      </div>
+		</div>
 		<div id="willesPlay">
 			<div id="movie-box">
 				<div id="movieName">播放MV - 我@你

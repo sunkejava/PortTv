@@ -140,8 +140,19 @@ function getImgSrc(g){
 	var p=$('.'+g);
 	return p.find("img").attr("src");
 }
-
-
+$('input[type="text"],input[type="password"]')['keyup'](function() {
+    if (!$(this)['val']() == '') {
+        $(this)['next']()['animate']({
+            'opacity': '1',
+            'right': '25%'
+        }, 200);
+    } else {
+        $(this)['next']()['animate']({
+            'opacity': '0',
+            'right': '25%'
+        }, 200);
+    }
+});
 
 //player
 var flashvars={
