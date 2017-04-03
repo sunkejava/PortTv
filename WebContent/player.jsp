@@ -24,12 +24,80 @@
 			<div class="TypeList">
 				<div id="list-text">播放列表
 				</div>
-				<div id="movie-List">
 				<div id="view-text">
 					<div title="文字模式" id="wzms">&#xe6c8;</div>
 					<a id="view-a">显示方式</a>
 					<div title="图文模式" id="twms">&#xe6c7;</div>
 				</div>
+				<div id="movie-List">
+					<ul id="text-list">
+						<li>
+							<div id="texts-box">爱情公寓第1集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第2集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第3集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第4集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第5集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第6集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第7集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第8集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第9集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第10集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第11集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第12集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第13集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第14集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第15集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第16集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第17集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第18集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第19集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第20集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第21集</div>
+						</li>
+						<li>
+							<div id="texts-box">爱情公寓第22集</div>
+						</li>
+					</ul>
 					<ul id="tv-lists">
 						<li>
 							<div class="image-box">

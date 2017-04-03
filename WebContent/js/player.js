@@ -249,7 +249,9 @@ var flashvars={
     });
     $("#wzms").on("click",function(){
     	$("#tv-lists").css({display:"none"});
+    	$("#text-list").css({display:"block"});
     });
     $("#twms").on("click",function(){
     	$("#tv-lists").css({display:"block"});
+    	$("#text-list").css({display:"none"});
     });
