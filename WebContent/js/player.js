@@ -170,7 +170,7 @@ var flashvars={
 		y:'',//这里是使用网址形式调用广告地址时使用，前提是要设置l的值为空
 		z:'',//缓冲广告，只能放一个，swf格式
 		e:'3',//视频结束后的动作，0是调用js函数，1是循环播放，2是暂停播放并且不调用广告，3是调用视频推荐列表的插件，4是清除视频流并调用js功能和1差不多，5是暂停播放并且调用暂停广告
-		v:'80',//默认音量，0-100之间
+		v:'50',//默认音量，0-100之间
 		p:'0',//视频默认0是暂停，1是播放，2是不加载视频
 		h:'0',//播放http视频流时采用何种拖动方法，=0不使用任意拖动，=1是使用按关键帧，=2是按时间点，=3是自动判断按什么(如果视频格式是.mp4就按关键帧，.flv就按关键时间)，=4也是自动判断(只要包含字符mp4就按mp4来，只要包含字符flv就按flv来)
 		q:'',//视频流拖动时参考函数，默认是start
@@ -265,4 +265,16 @@ var flashvars={
     $("#twms").on("click",function(){
     	$("#tv-lists").css({display:"block"});
     	$("#text-list").css({display:"none"});
+    });
+    
+    $(".validation").on("click",function(){
+    	$("#valueurl").val("");
+    	$('input[type="text"]')['next']()['animate']({
+            'opacity': '0',
+            'right': '25%'
+        }, 200);
+    });
+    $(".TypeBigPics").on("click",function(){
+    	$(".textBox").css({background:"#1296DB"});
+    	$(".textBox").html("正在播放："+$(".textBox").text());
     });

@@ -1,11 +1,11 @@
 @CHARSET "UTF-8";
 @font-face {
   font-family: 'iconfont';  /* project id 140464 */
-  src: url('//at.alicdn.com/t/font_suucmk8y34eipb9.eot');
-  src: url('//at.alicdn.com/t/font_suucmk8y34eipb9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_suucmk8y34eipb9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_suucmk8y34eipb9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_suucmk8y34eipb9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot');
+  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.svg#iconfont') format('svg');
 }
 html, body, div, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, ol, ul, li {
  margin: 0;
@@ -667,7 +667,7 @@ em, i {
 	text-align:center;
 	font-size: 20px;
 	font-style: normal;
-	color:#111;
+	color:#FF6699;
 	position: initial;
 }
 #text-list{
@@ -689,9 +689,13 @@ em, i {
 }
 .login_fields__user .icon {
     position: absolute;
+    font-family: iconfont;
+	font-size: 25px;
+	font-style: normal;
+	color:#FF6699;
     z-index: 1;
     left: 36px;
-    top: 10px;
+    top: 3px;
     margin: 0 10% 5px 10%;
     opacity: .5;
 }
@@ -712,9 +716,18 @@ em, i {
 .validation {
     position: absolute;
     z-index: 1;
+    font-family: iconfont;
+	font-size: 20px;
+	font-style: normal;
+	color:#FF6699;
     right: 10px;
-    top: 15px;
+    top: 3px;
+    cursor: pointer;
     opacity: 0;
+    
+}
+.validation:hover {
+    color:#1296DB
 }
 #submitbf {
     border-radius: 50px;

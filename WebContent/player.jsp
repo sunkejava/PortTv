@@ -20,11 +20,11 @@
 			</div>
 			<div class="login_fields__user">
 		      <div class="icon" style="opacity: 0.5;">
-		        <img src="img/user_icon_copy.png">
+		        &#xe616;
 		      </div>
-		      <input placeholder="视频地址..." id="valueurl" name="valueurl" value="" type="text">
-		        <div class="validation">
-		          <img src="img/tick.png">
+		      <input placeholder="请输入视频地址..." id="valueurl" name="valueurl" value="" type="text">
+		        <div title="删除" class="validation">
+		          &#xe6d8;
 		        </div>
 	      	<input id="submitbf" type="button" name="submitbf" value="播放">
 	      </div>
@@ -116,7 +116,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
@@ -135,7 +135,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
@@ -154,7 +154,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
@@ -173,7 +173,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
@@ -192,7 +192,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
@@ -211,7 +211,7 @@
 						<li>
 							<div class="image-box">
 								<a target="_blank" class="TypeBigPics"
-									href="http://www.umei.cc/meinvtupian/siwameinv/12434.htm">
+									href="javascript:;">
 									<div class="image-pic">
 										<div class="pps">
 											<img class="img" src="img/a1.jpg">
