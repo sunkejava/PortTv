@@ -1,11 +1,11 @@
 @CHARSET "UTF-8";
 @font-face {
   font-family: 'iconfont';  /* project id 140464 */
-  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot');
-  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.eot');
+  src: url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.svg#iconfont') format('svg');
 }
 html, body, div, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, ol, ul, li {
  margin: 0;
@@ -117,7 +117,7 @@ em, i {
 }
 
 .TypePicInfos {
-    background: rhba(255,255,255,0.4) none repeat scroll 0 0;
+    background: rgba(255,255,255,0.4) none repeat scroll 0 0;
     padding: 5px 3% 0;
     width: 94%;
 }
@@ -570,7 +570,7 @@ em, i {
 	position:absolute;
 	z-index: 96;
 	width:100%;
-	height:100%;
+	height:95%;
 }
 #movie-box{
 	position:absolute;
@@ -639,6 +639,7 @@ em, i {
     font-size: 1.4em;
     text-shadow: none;
     text-align:center;
+    height: 3%;
     background-color: rgba(0,0,0,.1);
     padding: 10px;
     color: #fff;
@@ -650,7 +651,7 @@ em, i {
 	position: static;
 	z-index: 96;
 	width:100%;
-	height:100%;
+	height:90%;
 	float:right;
 	overflow-x: auto; 
     overflow-y: auto; 
@@ -659,6 +660,7 @@ em, i {
 	float:right;
 	font-size: 1.4em;
 	padding: 10px;
+	height: 3%;
 	width:100%;
 	text-align:center;
 	background-color: rgba(0,0,0,.1);
@@ -682,7 +684,7 @@ em, i {
 }
 #view-text{
 	text-align:center;
-	height:20px;
+	height:3%;
 }
 #view-a{
 	text-align:center;
@@ -786,4 +788,37 @@ em, i {
           transition-property: background,color;
   -webkit-transition-duration: .2s;
           transition-duration: .2s;
+}
+#buttom-box{
+	width:100%;
+	height:500px;
+	margin-top: 68px;
+	background:rgba(0,0,0,0.7);
+}
+#like-box{
+	width:80%;
+	height:500px;
+	margin:0 10%;
+	background:rgba(0,0,0,0);
+	box-shadow: #DC6180 1px 1px 15px 10px;
+}
+#like-header{
+	width:100%;
+	height:30px;
+	border-bottom: 2px solid #ff6699;
+}
+#like-header span,a{
+	font: 26px/30px "Microsoft YaHei","微软雅黑", SimHei,helvetica, arial, verdana, tahoma, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 26px;
+    color:#DC6180;
+    line-height: 30px;
+    font-family: 'Microsoft YaHei', 微软雅黑, SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+    cursor: pointer;
+}
+#like-header a{
+	float:right;
 }

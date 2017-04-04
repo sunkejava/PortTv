@@ -232,7 +232,17 @@
 			</div>
 
 		</div>
-
+		<div id="buttom-box">
+			<div id="like-box">
+				<div id="like-header">
+					<span>猜你喜欢</span>
+					<a href="javascript:;">查看全部</a>
+				</div>
+				<div id="likeimage-boxs">
+					
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- 弹出框 -->
 	<div id="alertBox">
