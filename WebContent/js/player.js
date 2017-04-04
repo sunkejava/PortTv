@@ -134,6 +134,9 @@ function playercolor(imginfo) {
 	$(".text").css({
 		color: "rgba(110,"+imginfo[0].img_color + ")"
 	});
+	$("input[type='text']").css({
+		background: "rgba(" + imginfo[0].img_color + ",.9)"
+	});
 	$("#willesPlay").css("box-shadow","1px 1px 15px 10px rgba(123," + imginfo[0].img_color + ")");
 }
 function getImgSrc(g){
@@ -282,10 +285,25 @@ var flashvars={
     	$(".typeBigPicsOn").next().children().children().attr("class","texts");
     	$(".textBoxs").css("background","#1296DB");
     	$(".texts").text("正在播放："+$(".texts").text());
+    	$("#movieName").text($(".texts").text());
     });	
+    $(".textList-box").on("click",function(){
+    	eachReplace("text-list");
+    	$(this).attr("class","textList-box-on");
+    	$(this).attr("id","texts-box-on");
+    	$(this).text("正在播放："+$(this).text());
+    	$("#movieName").text($(this).text());
+    });
     function eachReplace(ps){
-    	$("#"+ps).each(function(){
-    		$("li").each(function(){
+    	if(ps=="text-list"){
+    		$("#"+ps).find("li").each(function(){
+    			$(this).children().attr("class","textList-box");
+    			$(this).children().attr("id","texts-box");
+    			$(this).children().text($(this).children().text().replace("正在播放：",""))
+    			$(this).children().attr("title",$(this).children().text());
+    		});
+    	}else{
+    		$("#"+ps).find("li").each(function(){
     			$(this).children().attr("class","image-box");
     			$(this).children().children().first().attr("class","TypeBigPics");
     			$(this).children().children().last().attr("class","TypePicInfos");
@@ -293,7 +311,8 @@ var flashvars={
     			$(this).children().children().next().children().children().attr("class","text");
     			$(this).children().children().next().children().css({background:""});
     			$(this).children().children().next().children().children().text($(this).children().children().next().children().children().text().replace("正在播放：",""));
+    			$(this).children().attr("title",$(this).children().children().next().children().children().text());
     		});
-    	});
+    	}
     }
     

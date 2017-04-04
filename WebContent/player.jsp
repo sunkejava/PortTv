@@ -46,70 +46,70 @@
 				<div id="movie-List">
 					<ul id="text-list">
 						<li>
-							<div id="texts-box">爱情公寓第1集</div>
+							<div id="texts-box" class="textList-box">向往的生活第1集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第2集</div>
+							<div id="texts-box" class="textList-box">向往的生活第2集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第3集</div>
+							<div id="texts-box" class="textList-box">向往的生活第3集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第4集</div>
+							<div id="texts-box" class="textList-box">向往的生活第4集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第5集</div>
+							<div id="texts-box" class="textList-box">向往的生活第5集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第6集</div>
+							<div id="texts-box" class="textList-box">向往的生活第6集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第7集</div>
+							<div id="texts-box" class="textList-box">向往的生活第7集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第8集</div>
+							<div id="texts-box" class="textList-box">向往的生活第8集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第9集</div>
+							<div id="texts-box" class="textList-box">向往的生活第9集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第10集</div>
+							<div id="texts-box" class="textList-box">向往的生活第10集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第11集</div>
+							<div id="texts-box" class="textList-box">向往的生活第11集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第12集</div>
+							<div id="texts-box" class="textList-box">向往的生活第12集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第13集</div>
+							<div id="texts-box" class="textList-box">向往的生活第13集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第14集</div>
+							<div id="texts-box" class="textList-box">向往的生活第14集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第15集</div>
+							<div id="texts-box" class="textList-box">向往的生活第15集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第16集</div>
+							<div id="texts-box" class="textList-box">向往的生活第16集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第17集</div>
+							<div id="texts-box" class="textList-box">向往的生活第17集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第18集</div>
+							<div id="texts-box" class="textList-box">向往的生活第18集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第19集</div>
+							<div id="texts-box" class="textList-box">向往的生活第19集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第20集</div>
+							<div id="texts-box" class="textList-box">向往的生活第20集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第21集</div>
+							<div id="texts-box" class="textList-box">向往的生活第21集</div>
 						</li>
 						<li>
-							<div id="texts-box">爱情公寓第22集</div>
+							<div id="texts-box" class="textList-box">向往的生活第22集</div>
 						</li>
 					</ul>
 					<ul id="tv-lists">
@@ -127,7 +127,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活1</span>
 									</div>
 								</div>
 							</div>
@@ -146,7 +146,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活2</span>
 									</div>
 								</div>
 							</div>
@@ -165,7 +165,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活3</span>
 									</div>
 								</div>
 							</div>
@@ -184,7 +184,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活4</span>
 									</div>
 								</div>
 							</div>
@@ -203,7 +203,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活5</span>
 									</div>
 								</div>
 							</div>
@@ -222,7 +222,7 @@
 								</a>
 								<div class="TypePicInfos">
 									<div class="textBox">
-										<span class="text">三国演义</span>
+										<span class="text">向往的生活6</span>
 									</div>
 								</div>
 							</div>

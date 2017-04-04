@@ -30,6 +30,27 @@ body {
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	padding:5px;
+	cursor: pointer;
+}
+.textList-box {
+    display: block;
+    background-color: #e4e7c8;
+	overflow: hidden;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	padding:5px;
+	cursor: pointer;
+}
+.textList-box-on{
+	background-color:#FF6699;
+	display: block;
+	overflow: hidden;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	padding:5px;
+	cursor: pointer;
 }
 a{
 	text-decoration: none;
@@ -679,6 +700,16 @@ em, i {
 	font-size: 18px;
 	color:#FF6699;
 	text-align: center;
+}
+#texts-box-on{
+	width:100%;
+	height:25px;
+	font-size: 18px;
+	color:#ffffff;
+	text-align: center;
+}
+#texts-box-on:hover{
+	color:#1296DB;
 }
 #texts-box:hover{
 	color:#1296DB
