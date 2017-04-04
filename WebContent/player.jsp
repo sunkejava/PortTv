@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/playerstyle.css">
+<link rel="stylesheet" type="text/css" href="css/as2.css">
 <script type="text/javascript" src="js/offlights.js"></script>
 <script type="text/javascript" src="ckplayer/ckplayer.js"
 	charset="utf-8"></script>
@@ -239,7 +240,234 @@
 					<a href="javascript:;">查看全部</a>
 				</div>
 				<div id="likeimage-boxs">
-					
+					<div class="col-list">
+                    <ul class="video-user-list">
+                      <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">XX</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>
+                        <li class="video-user-item">
+                          <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">毒药</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                            </div>
+                          </a>
+                        </li>                    
+					</ul>
+                  </div>
 				</div>
 			</div>
 		</div>

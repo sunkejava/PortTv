@@ -7,7 +7,7 @@
   url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.svg#iconfont') format('svg');
 }
-html, body, div, p, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td, ol, ul, li {
+html, body, div, p, dl, dt, dd, h1, ul,li,h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
  margin: 0;
  list-style: none;
  
@@ -150,7 +150,7 @@ em, i {
 	text-align:center;
 	
 }
-.icon-view {
+.icon-view{
 	font-family: iconfont;
 	font-size: 50px;
 	font-style: normal;
@@ -159,13 +159,7 @@ em, i {
     top: 30%;
     left: 50%;
     margin: -18px 0 0 -25px;
-    background-position: 0 0;
     opacity: 0;
-    -webkit-transition: opacity .2s linear;
-    -moz-transition: opacity .2s linear;
-    -ms-transition: opacity .2s linear;
-    -o-transition: opacity .2s linear;
-    transition: opacity .2s linear;
 }
 
 .maskb {
@@ -807,8 +801,8 @@ em, i {
 	height:30px;
 	border-bottom: 2px solid #ff6699;
 }
-#like-header span,a{
-	font: 26px/30px "Microsoft YaHei","微软雅黑", SimHei,helvetica, arial, verdana, tahoma, sans-serif;
+#like-header span,#like-header a{
+	font: "Microsoft YaHei","微软雅黑", SimHei,helvetica, arial, verdana, tahoma, sans-serif;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
