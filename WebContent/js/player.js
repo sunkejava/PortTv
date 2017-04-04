@@ -278,6 +278,7 @@ var flashvars={
         }, 200);
     });
     $(".TypeBigPics").on("click",function(){
+<<<<<<< HEAD
     	eachReplace("tv-lists");
     	$(this).attr("class","typeBigPicsOn");
     	$(".typeBigPicsOn").parent().attr("class","on-select");
@@ -316,3 +317,8 @@ var flashvars={
     	}
     }
     
+=======
+    	$(".textBox").css({background:"#1296DB"});
+    	$(".textBox").html("正在播放："+$(".textBox").text());
+    });
+>>>>>>> branch 'master' of git@github.com:sunkejava/PortTv.git

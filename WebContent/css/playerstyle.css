@@ -1,11 +1,19 @@
 @CHARSET "UTF-8";
 @font-face {
   font-family: 'iconfont';  /* project id 140464 */
+<<<<<<< HEAD
   src: url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.eot');
   src: url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.eot?#iefix') format('embedded-opentype'),
   url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.woff') format('woff'),
   url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_gr4s2yoz99o4j9k9.svg#iconfont') format('svg');
+=======
+  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot');
+  src: url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_dm9rttqf7gt1q0k9.svg#iconfont') format('svg');
+>>>>>>> branch 'master' of git@github.com:sunkejava/PortTv.git
 }
 html, body, div, p, dl, dt, dd, h1, ul,li,h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
  margin: 0;
