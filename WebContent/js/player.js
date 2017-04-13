@@ -285,6 +285,7 @@ var flashvars={
     	$(".typeBigPicsOn").next().children().children().attr("class","texts");
     	$(".textBoxs").css("background","#1296DB");
     	$(".texts").text("正在播放："+$(".texts").text());
+    	document.title = $(".texts").text();
     	$("#movieName").text($(".texts").text());
     });	
     $(".textList-box").on("click",function(){
@@ -292,6 +293,7 @@ var flashvars={
     	$(this).attr("class","textList-box-on");
     	$(this).attr("id","texts-box-on");
     	$(this).text("正在播放："+$(this).text());
+    	document.title = $(this).text();
     	$("#movieName").text($(this).text());
     });
     function eachReplace(ps){
