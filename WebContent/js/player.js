@@ -15,7 +15,7 @@ function yp(){
 			d=!1,c=0;c<a.length;c++)
 		if(0<b.indexOf(a[c])){
 			d=!0;
-			break
+			break;
 			}
 		return d
 	}
@@ -45,7 +45,7 @@ function c() {
             l86.css({
                 left: c.clientX - k + "px",
                 top: c.clientY - m + "px"
-            })
+            });
         }
     });
     l87.on("mouseup", function(c) {
@@ -98,7 +98,7 @@ Cb.change(function(c) {
             I.css("background-image", "url(" + ua.innerHTML + ")");
             !yp() && localStorage.setItem("i", ua.innerHTML);
             La.find("span").removeClass("on");
-            I.removeClass("bg101")
+            I.removeClass("bg101");
             ge(getImgSrc(c));
         }
     }
@@ -250,7 +250,7 @@ var flashvars={
             $("#alertBox").css({
                 left: c.clientX - k + "px",
                 top: c.clientY - m + "px"
-            })
+            });
         }
     });
     $("#btop").on("mouseup", function(c) {
@@ -278,7 +278,6 @@ var flashvars={
         }, 200);
     });
     $(".TypeBigPics").on("click",function(){
-<<<<<<< HEAD
     	eachReplace("tv-lists");
     	$(this).attr("class","typeBigPicsOn");
     	$(".typeBigPicsOn").parent().attr("class","on-select");
@@ -316,9 +315,4 @@ var flashvars={
     		});
     	}
     }
-    
-=======
-    	$(".textBox").css({background:"#1296DB"});
-    	$(".textBox").html("正在播放："+$(".textBox").text());
-    });
->>>>>>> branch 'master' of git@github.com:sunkejava/PortTv.git
+    	
