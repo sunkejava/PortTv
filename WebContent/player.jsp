@@ -6,6 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/playerstyle.css">
 <link rel="stylesheet" type="text/css" href="css/as2.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="dist/jquery.vm-carousel.css">
+<script src="js/modernizr.js"></script>
 <script type="text/javascript" src="js/offlights.js"></script>
 <script type="text/javascript" src="ckplayer/ckplayer.js"
 	charset="utf-8"></script>
@@ -547,5 +550,5 @@
 </body>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/player.js"></script>
-
+<script src="dist/jquery.vm-carousel.js"></script>
 </html>
