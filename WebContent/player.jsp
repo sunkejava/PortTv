@@ -548,6 +548,17 @@
 
 	<div title="换肤" id="gs"></div>
 </body>
+<script type="text/javascript">
+	jQuery(function($){
+
+		  $('.vmcarousel-normal').vmcarousel({
+			 centered: false,
+			 start_item: 0,
+			 autoplay: false,
+			 infinite: false
+		  });
+	   });
+</script>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/player.js"></script>
 <script src="dist/jquery.vm-carousel.js"></script>
