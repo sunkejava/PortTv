@@ -241,7 +241,7 @@
 				</div>
 				<div id="likeimage-boxs">
 					<div class="col-list">
-                    <ul class="video-user-list">
+                    <ul class="video-user-list vmcarousel-normal">
                       <li class="video-user-item">
                           <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
                             <div class="video-user-pic">
