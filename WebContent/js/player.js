@@ -128,6 +128,9 @@ function playercolor(imginfo) {
 	$("#alertBox").css({
 		background: "rgba(" + imginfo[0].img_color + ",.9)"
 	});
+	$("#buttom-box").css({
+		background: "rgba(" + imginfo[0].img_color + ",.9)"
+	});
 	$(".image-box").css({
 		background: "rgba(210," + imginfo[0].img_color + ")"
 	});
