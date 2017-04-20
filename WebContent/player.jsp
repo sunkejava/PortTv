@@ -6,9 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/playerstyle.css">
 <link rel="stylesheet" type="text/css" href="css/as2.css">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="dist/jquery.vm-carousel.css">
-<script src="js/modernizr.js"></script>
 <script type="text/javascript" src="js/offlights.js"></script>
 <script type="text/javascript" src="ckplayer/ckplayer.js"
 	charset="utf-8"></script>
@@ -244,7 +241,7 @@
 				</div>
 				<div id="likeimage-boxs">
 					<div class="col-list">
-                    <ul class="video-user-list vmcarousel-normal">
+                    <ul class="video-user-list">
                       <li class="video-user-item">
                           <a class="video-user-box" href="http://www.yy.com/s/1108206729086740561" target="_blank">
                             <div class="video-user-pic">
@@ -548,18 +545,6 @@
 
 	<div title="换肤" id="gs"></div>
 </body>
-<script type="text/javascript">
-	jQuery(function($){
-
-		  $('.vmcarousel-normal').vmcarousel({
-			 centered: false,
-			 start_item: 0,
-			 autoplay: false,
-			 infinite: false
-		  });
-	   });
-</script>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/player.js"></script>
-<script src="dist/jquery.vm-carousel.js"></script>
 </html>
