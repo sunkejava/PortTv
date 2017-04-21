@@ -20,7 +20,7 @@
 <script type="text/javascript">
 	var flashvars={
 		f:'ckplayer/m3u8.swf',
-		a:'http://localhost/test.m3u8',
+		a:'http://obiosoph6.bkt.clouddn.com/aqgy',
 		s:4,
 		c:0
 };

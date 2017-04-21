@@ -162,7 +162,7 @@ $('input[type="text"],input[type="password"]')['keyup'](function() {
 
 //player
 var flashvars={
-		f:'http://hd.yinyuetai.com/uploads/videos/common/0E050154B736412955C19ADEF4DDD635.flv?sc\u003d2d50738ba1cc4d97\u0026br\u003d1096\u0026vid\u003d2571488\u0026aid\u003d25339\u0026area\u003dKR\u0026vst\u003d0',//视频地址
+		f:'http://obiosoph6.bkt.clouddn.com/test_test.mp4',//视频地址
 		a:'',//调用时的参数，只有当s>0的时候有效
 		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
 		c:'0',//是否读取文本配置,0不是，1是
@@ -198,7 +198,7 @@ var flashvars={
 		//调用自定义播放器参数结束
 		};
 	var params={bgcolor:'rgba(93, 139, 151, 0.74902)',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
-	var video=['http://hd.yinyuetai.com/uploads/videos/common/0E050154B736412955C19ADEF4DDD635.flv?sc\u003d2d50738ba1cc4d97\u0026br\u003d1096\u0026vid\u003d2571488\u0026aid\u003d25339\u0026area\u003dKR\u0026vst\u003d0->video/mp4'];
+	var video=['http://obiosoph6.bkt.clouddn.com/test_test.mp4->video/mp4'];
 	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
 
 	//开关灯
