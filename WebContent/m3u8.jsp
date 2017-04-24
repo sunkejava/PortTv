@@ -22,7 +22,7 @@
 
 	var flashvars={
 		f:'ckplayer/m3u8.swf',
-		a:'http://obiosoph6.bkt.clouddn.com/ak',
+		a:'http://obiosoph6.bkt.clouddn.com/aqgy',
 		s:4,
 		c:0
 };
