@@ -18,7 +18,7 @@
 	<div id="a1"></div>
 <script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
 <script type="text/javascript">
-/*http://obiosoph6.bkt.clouddn.com/aqgy'*/
+/*http://obiosoph6.bkt.clouddn.com/ak'*/
 
 	var flashvars={
 		f:'ckplayer/m3u8.swf',
