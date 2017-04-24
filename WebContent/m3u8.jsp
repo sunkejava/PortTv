@@ -26,7 +26,7 @@
 		s:4,
 		c:0
 };
-	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+	var params={bgcolor:'#FFFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
 	var video=['http://obiosoph6.bkt.clouddn.com/aqgy->video/m3u8'];
 	CKobject.embed('ckplayer/m3u8.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
 </script>
