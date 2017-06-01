@@ -162,7 +162,8 @@ $('input[type="text"],input[type="password"]')['keyup'](function() {
 
 //player
 var flashvars={
-		f:'http://obiosoph6.bkt.clouddn.com/test_test.mp4',//视频地址
+		//https://d1.xia12345.com/2017/03/160353.mp4----http://obiosoph6.bkt.clouddn.com/test_test.mp4
+		f:'http://d1.xia12345.com/2017/03/160353.mp4',//视频地址
 		a:'',//调用时的参数，只有当s>0的时候有效
 		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
 		c:'0',//是否读取文本配置,0不是，1是
