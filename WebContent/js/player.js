@@ -163,7 +163,7 @@ $('input[type="text"],input[type="password"]')['keyup'](function() {
 //player
 var flashvars={
 		//https://d1.xia12345.com/2017/03/160353.mp4----http://obiosoph6.bkt.clouddn.com/test_test.mp4
-		f:'http://d1.xia12345.com/2017/03/160353.mp4',//视频地址
+		f:'https://d1.xia12345.com/2017/03/160353.mp4',//视频地址
 		a:'',//调用时的参数，只有当s>0的时候有效
 		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
 		c:'0',//是否读取文本配置,0不是，1是
@@ -178,7 +178,7 @@ var flashvars={
 		z:'',//缓冲广告，只能放一个，swf格式
 		e:'3',//视频结束后的动作，0是调用js函数，1是循环播放，2是暂停播放并且不调用广告，3是调用视频推荐列表的插件，4是清除视频流并调用js功能和1差不多，5是暂停播放并且调用暂停广告
 		v:'50',//默认音量，0-100之间
-		p:'0',//视频默认0是暂停，1是播放，2是不加载视频
+		p:'1',//视频默认0是暂停，1是播放，2是不加载视频
 		h:'0',//播放http视频流时采用何种拖动方法，=0不使用任意拖动，=1是使用按关键帧，=2是按时间点，=3是自动判断按什么(如果视频格式是.mp4就按关键帧，.flv就按关键时间)，=4也是自动判断(只要包含字符mp4就按mp4来，只要包含字符flv就按flv来)
 		q:'',//视频流拖动时参考函数，默认是start
 		m:'',//让该参数为一个链接地址时，单击播放器将跳转到该地址
@@ -199,7 +199,7 @@ var flashvars={
 		//调用自定义播放器参数结束
 		};
 	var params={bgcolor:'rgba(93, 139, 151, 0.74902)',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
-	var video=['http://obiosoph6.bkt.clouddn.com/test_test.mp4->video/mp4'];
+	var video=['https://d1.xia12345.com/2017/03/160353.mp4->video/mp4'];
 	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
 
 	//开关灯

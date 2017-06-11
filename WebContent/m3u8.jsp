@@ -22,12 +22,12 @@
 
 	var flashvars={
 		f:'ckplayer/m3u8.swf',
-		a:'http://obiosoph6.bkt.clouddn.com/ak',
+		a:'http://cloud.line.one.onlineplayerhls.com:8181/movie-hls/160730/bdyjy94/index.m3u8',
 		s:4,
 		c:0
 };
 	var params={bgcolor:'#FFFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
-	var video=['http://obiosoph6.bkt.clouddn.com/aqgy->video/m3u8'];
+	var video=['http://cloud.line.one.onlineplayerhls.com:8181/movie-hls/160730/bdyjy94/index.m3u8->video/m3u8'];
 	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
 </script>
 </body>
