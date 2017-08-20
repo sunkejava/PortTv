@@ -1,5 +1,6 @@
 package com.decline.util;
 
+
 /**
  * 解析网址枚举
  * @author Administrator
@@ -34,5 +35,13 @@ public enum WebSiteEnum {
 		this.url = url;
 	}
 	
+	public static WebSiteEnum getEnumByUrl(String url){
+		for(WebSiteEnum WebSiteEnum: values()){
+			if(url.contains(WebSiteEnum.url)){
+				return WebSiteEnum;
+			}
+		}
+		throw new RuntimeException("url为"+url+"的网站尚未支持！！！");
+	}
 	
 }
