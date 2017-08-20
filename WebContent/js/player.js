@@ -163,7 +163,7 @@ $('input[type="text"],input[type="password"]')['keyup'](function() {
 //player
 var flashvars={
 		//https://d1.xia12345.com/2017/03/160353.mp4----http://obiosoph6.bkt.clouddn.com/test_test.mp4
-		f:'https://d1.xia12345.com/2017/03/160353.mp4',//视频地址
+		f:'https://content.xvideos.com/videos/mp4/d/e/4/xvideos.com_de471b7f5b9ce04575f3eea8ec87de3c.mp4?e=1498977329&ri=1024&rs=85&h=e4242b7727f1e5a943e871f1ff974e6b',//视频地址
 		a:'',//调用时的参数，只有当s>0的时候有效
 		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
 		c:'0',//是否读取文本配置,0不是，1是
@@ -199,8 +199,8 @@ var flashvars={
 		//调用自定义播放器参数结束
 		};
 	var params={bgcolor:'rgba(93, 139, 151, 0.74902)',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
-	var video=['https://d1.xia12345.com/2017/03/160353.mp4->video/mp4'];
-	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
+	var video=['https://content.xvideos.com/videos/mp4/d/e/4/xvideos.com_de471b7f5b9ce04575f3eea8ec87de3c.mp4?e=1498977329&ri=1024&rs=85&h=e4242b7727f1e5a943e871f1ff974e6b->video/mp4'];
+	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','800px','500px',false,flashvars,video,params);
 
 	//开关灯
 	var box = new LightBox();
